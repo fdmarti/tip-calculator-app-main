@@ -1,0 +1,14 @@
+.buttons-tip div {
+	background-color: var(--darkCyan);
+	color: var(--white);
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	font-size: 25px;
+	text-align: center;
+}
+
+.buttons-tip div:hover {
+	cursor: pointer;
+	background-color: var(--darkGrayshCyan);
+}

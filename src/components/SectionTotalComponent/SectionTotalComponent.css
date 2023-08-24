@@ -1,0 +1,30 @@
+.tip-result {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.tip-result p {
+	color: var(--veryLightGrayshCyan);
+	font-size: 17px;
+}
+
+.tip-result p span {
+	color: var(--grayshCyan);
+	font-size: 13px;
+}
+
+.tip-result div {
+	font-size: 36px;
+	color: var(--strongCyan);
+}
+
+@media (max-width: 992px) {
+	.tip-result p {
+		font-size: 15px;
+	}
+
+	.tip-result div {
+		font-size: 24px;
+	}
+}

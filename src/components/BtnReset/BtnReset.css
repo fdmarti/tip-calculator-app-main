@@ -1,0 +1,15 @@
+.btn-reset {
+	background-color: var(--strongCyan);
+	color: var(--darkCyan);
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.btn-reset:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
